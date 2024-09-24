@@ -33,7 +33,4 @@ public class CarServiceImpl implements CarService {
         List<Car> carList = cars.subList(0, Math.min(number, cars.size()));
         return carList;
     }
-
-
-
 }
